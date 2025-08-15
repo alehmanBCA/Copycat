@@ -99,3 +99,25 @@ html {
     left:760px;
 }
 
+/* Style the password text box */
+#password-textbox{
+    display:inline-flex;
+    position:absolute;
+    justify-content:left;
+    background-color:white;
+    border:2px solid lightgray;
+    padding:5px 216.5px 5px 5px;
+    top:490px;
+    left:760px;
+}
+
+#forgot-password-button{
+    display:inline-flex;
+    position:absolute;
+    justify-content:left;
+    background:none;
+    border:none;
+    top:525px;
+    left:755px;
+    color:rgb(0, 89, 255);
+}
