@@ -129,7 +129,10 @@ html {
     left:755px;
     color:rgb(0, 89, 255);
     cursor:pointer;
-    
+}
+
+#forgot-password-button:hover{
+    text-decoration:underline;
 }
 
 /* Style the continue button */
@@ -171,17 +174,34 @@ html {
     cursor:pointer;
 }
 
+#signup-button:hover{
+    text-decoration:underline;
+}
+
 /* Sign In Button Styling */
 #signin-wo-button{
-    display:inline-flex;
+    display:flex;
     position:absolute;
-    top:700px;
-    left:870px;
+    top:690px;
+    left:750px;
     font-size:14.5px;
     color:blue;
     background:none;
     border:none;
     cursor:pointer;
+    width: 400px; 
+    line-height: 35px;
+    justify-content:center;
+    text-align: center;
+}
+
+#signin-wo-button:hover{
+    background-color:rgb(230, 230, 230);
+}
+
+.left-half{
+    color:white;
+    background-color:black;
 }
 
 /* Right side of the screen complete */
