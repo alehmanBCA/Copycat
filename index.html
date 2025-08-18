@@ -6,84 +6,121 @@
     <head class="page title">
         <title> Webflow Copycat </title>
         <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
     </head>
 
     <body>
 
         <!-- Start the right side of the screen -->
         <!-- Section displays the webflow logo -->
-        <section>
-            <h1 class="webflow-logo">
-                <img id="webflow-image" src="images/Webflow Logo.png" alt="Webflow Logo"> <p id="webflow-title">Webflow</p>
-            </h1>
+        <section class="right-side">
 
-        <!-- Text -->
+            <section>
+                <h1 class="webflow-logo">
+                    <img id="webflow-image" src="images/Webflow Logo.png" alt="Webflow Logo"> <p id="webflow-title">Webflow</p>
+                </h1>
 
-        <!-- Section displays the login -->
-        </section>
-        <section>
-            <h2 id="login-text">
-                Log in to your account
-            </h2> 
+            <!-- Text -->
 
-            <h2 id="no-account-text">
-                Don't have an account?
+            <!-- Section displays the login -->
+            </section>
+            <section>
+                <h2 id="login-text">
+                    Log in to your account
+                </h2> 
+
+                <h2 id="no-account-text">
+                    Don't have an account?
+                </h2>
+            </section>
+
+            <!-- Buttons -->
+            <section>
+
+                <!-- Google button -->
+                <button id="google-button">
+                    <img id="google-logo" src="images/google-logo.png" alt="Google Logo"> Continue with Google
+                </button>
+
+                <!-- SSO button -->
+                <button id="sso-button">
+                    <img id="sso-logo" src="images/sso-logo.png" alt="SSO Logo"> Continue with sso
+                </button>
+
+                <!-- Forgot password button -->
+                <button id="forgot-password-button">
+                    Forgot your password?
+                </button>
+
+                <!-- Continue button -->
+                <button id="continue-button">
+                    Continue
+                </button>
+
+                <!-- Sign up button -->
+                <button id="signup-button">
+                    Sign up
+                </button>
+
+                <!-- Sign In Button -->
+                <button id="signin-wo-button">
+                    Sign in to Webflow Optimize
+                </button>
+            </section>
+
+            <!-- 'or' text -->
+            <h2 id="or-text">
+                <span>
+                    ------------------------------------- or -------------------------------------
+                </span>
             </h2>
-        </section>
 
-        <!-- Buttons -->
-        <section>
+            <!-- Login Inputs -->
+            <section>
+                <!-- Username input -->
+                <input id="username-textbox" type="text" name="Username Input" placeholder="Email address or username">
+                <!-- Password input -->
+                <input id="password-textbox" type="text" name="Password Input" placeholder="Password">
+            </section> 
+    </section>
 
-            <!-- Google button -->
-            <button id="google-button">
-                <img id="google-logo" src="images/google-logo.png" alt="Google Logo"> Continue with Google
-            </button>
 
-            <!-- SSO button -->
-            <button id="sso-button">
-                <img id="sso-logo" src="images/sso-logo.png" alt="SSO Logo"> Continue with sso
-            </button>
-
-            <!-- Forgot password button -->
-            <button id="forgot-password-button">
-                Forgot your password?
-            </button>
-
-            <!-- Continue button -->
-             <button id="continue-button">
-                Continue
-             </button>
-
-             <!-- Sign up button -->
-              <button id="signup-button">
-                Sign up
-              </button>
-
-              <!-- Sign In Button -->
-               <button id="signin-wo-button">
-                Sign in to Webflow Optimize
-               </button>
-        </section>
-
-        <!-- 'or' text -->
-         <h2 id="or-text">
-            <span>
-                ------------------------------------- or -------------------------------------
-            </span>
-         </h2>
-
-        <!-- Login Inputs -->
-         <section>
-            <!-- Username input -->
-            <input id="username-textbox" type="text" name="Username Input" placeholder="Email address or username">
-            <!-- Password input -->
-             <input id="password-textbox" type="text" name="Password Input" placeholder="Password">
-        </section> 
 
         <!-- Start left side of the screen -->
-         <a class="left-half">
-            abc
+
+
+
+         <a class="left-side">
+            <div id="h">
+                <img id="left-webflow-logo" src="images/Webflow Logo.png" alt="Webflow Logo">
+                <p id="webflow-text">
+                    Webflow
+                </p>
+                <p id="conf-text">
+                    Conf
+                </p>
+                <p id="future-text">
+                    The future <br> of the web starts here
+                </p>
+                <p id="sept-text">
+                    Sept.
+                </p>
+            </div>
+            <div id="first-circle">
+                <p>
+                    17
+                </p>
+            </div>
+            <div id="second-circle">
+                18
+            </div>
          </a>
 
+         <div id="register-button">
+            Register now
+            <img id="upright-arrow" src="images/upright arrow.png" alt="Up Right Arrow">
+         </div>
     </body>
 </html> 
