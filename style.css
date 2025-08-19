@@ -4,33 +4,15 @@ html {
 }
 
 
+/* Style the right side of the page */
+
+
+
 .right-side{
     border:none;
     width: 500px;
     height:750px;
     margin:0px 750px;
-}
-
-.left-side{
-    position: absolute;
-    top: 0;
-    left: -19.65vw;
-    border: 3px solid black;
-    width:623px;
-    height:750px;
-    margin: 0px 250px;
-    background-color:black;
-}
-
-#h{
-    position:absolute;
-    background-color:black;
-    border:1px solid rgb(55, 55, 55);
-    color:white;
-    width: 420px;
-    height:560px;
-    top:105px;
-    left:100px;
 }
 
 /* Style the webflow logo */
@@ -227,6 +209,29 @@ html {
 
 
 
+.left-side{
+    position: absolute;
+    top: 0;
+    left: -19.65vw;
+    border: 3px solid black;
+    width:623px;
+    height:750px;
+    margin: 0px 250px;
+    background-color:black;
+}
+
+/* Style the box */
+#box{
+    position:absolute;
+    background-color:black;
+    border:1px solid rgb(55, 55, 55);
+    color:white;
+    width: 420px;
+    height:560px;
+    top:105px;
+    left:100px;
+}
+
 /* Style the left webflow logo */
 #left-webflow-logo{
     display:flex;
@@ -354,4 +359,78 @@ html {
     width:20px;
     height:20px;
     padding-left:290px;
+}
+
+
+
+/* IPAD SCREEN */
+
+
+
+@media (max-width: 1000px){
+
+    /* Right side */
+
+    /* Left side */
+
+    /* Style the left half of the screen */
+    .left-side{
+        left:-30vw;
+        width:510px;
+    }
+
+    /* Style the black box in the left side of the screen */
+    #box{
+        left:70px;
+    }
+
+    /* Style the left webflow logo */
+    #left-webflow-logo{
+        top:13px;
+    }
+
+    /* Style the left webflow text */
+    #webflow-text{
+        top:10px;
+    }
+
+    /* Style the conf text */
+    #conf-text{
+        top:10px;
+    }
+
+    /* Style the future text */
+    #future-text{
+        font-size:50px;
+        top:55px;
+    }
+
+    /* Style the sept text */
+    #sept-text{
+        top:265px;
+    }
+
+    /* Style the first circle */
+    #first-circle{
+        top:395px;
+        left:170px;
+    }
+
+    /* Style the second circle */
+    #second-circle{
+        top:395px;
+        left:215px;
+    }
+
+    /* Style the register button */
+    #register-button{
+        top:520px;
+        left:60px
+    }
+
+    /* Style the register button while the cursor is over it */
+    #register-button:hover{
+        left:30px;
+    }
+
 }
