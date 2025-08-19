@@ -15,21 +15,13 @@ html {
     margin:0px 750px;
 }
 
-/* Style the webflow logo */
-.webflow-logo {
-    display: inline-flex;
-    justify-content: center; 
-    position: absolute;
-    top: 115px;
-    left: 850px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-}
-
 /* Style the webflow image */
 #webflow-image {
     display: inline-flex;
+    position:absolute;
     justify-content: center;
+    top:115px;
+    left:850px;
     width: 70px;
     height: 70px;
 }
@@ -38,6 +30,11 @@ html {
 #webflow-title {
     display: inline-flex;
     justify-content: center;
+    position:absolute;
+    top:110px;
+    left:915px;
+    font-size:25px;
+    font-family:outfit;
 }
 
 /* Style the 'Log in to your account' text */
@@ -46,8 +43,9 @@ html {
     position: absolute;
     top: 210px;
     left: 820px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:outfit;
     font-size: 27px;
+    font-weight:500;
 }
 
 /* GOOGLE */
@@ -108,8 +106,8 @@ html {
     position:absolute;
     justify-content: left;
     background-color: white;
-    border: 2px solid lightgray;
-    padding: 5px 195px 5px 5px;
+    border: 2px solid #d3d3d3;
+    padding: 5px 197px 5px 5px;
     font-size: 15px;
     top:450px; 
 }
@@ -160,7 +158,7 @@ html {
     position:absolute;
     top: 620px;
     left: 830px;
-    font-size:16.5px;
+    font-size:15px;
     color: gray;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 1;
@@ -369,7 +367,6 @@ html {
 
 @media (max-width: 1000px){
 
-    /* Right side */
 
     /* Left side */
 
@@ -433,4 +430,75 @@ html {
         left:30px;
     }
 
+    /* Right side */
+
+    .right-side{
+        width:200px;
+    }
+
+    #webflow-image{
+        left:630px;
+        top:140px;
+    }
+
+    #webflow-title{
+        left:695px;
+        top:135px;
+    }
+
+    #login-text{
+        top:200px;
+        left:580px;
+    }
+
+    #google-button{
+        top:280px;
+        left:520px;
+    }
+
+    #sso-button{
+        top:320px;
+        left:520px;
+    }
+
+    #or-text{
+        top:360px;
+        left:520px;
+    }
+
+    #username-textbox{
+        top:420px;
+        left:520px;
+    }
+
+    #password-textbox{
+        top:460px;
+        left:520px;
+    }
+
+    #forgot-password-button{
+        top:498px;
+        left:515px;
+    }
+
+    #continue-button{
+        top:535px;
+        left:520px;
+    }
+
+    #no-account-text{
+        font-size:14.5px;
+        top:615px;
+        left:615px;
+    }
+
+    #signup-button{
+        top:627px;
+        left:767px;
+    }
+
+    #signin-wo-button{
+        top:670px;
+        left:520px;
+    }
 }
