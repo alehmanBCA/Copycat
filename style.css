@@ -502,3 +502,97 @@ html {
         left:520px;
     }
 }
+
+
+/* Phone Version */
+
+
+@media (max-width: 900px){
+    html{
+        height:100px;
+    }
+    /* Get rid of the left side of the screen */
+    /* Style the left half of the screen */
+    .left-side{
+        left:-30vw;
+        width:510px;
+        display:none;
+    }
+
+    /* Style the register button */
+    #register-button{
+        top:520px;
+        left:60px;
+        display: none;
+    }
+
+     .right-side{
+        width:200px;
+    }
+
+    #webflow-image{
+        left:340px;
+        top:40px;
+    }
+
+    #webflow-title{
+        left:405px;
+        top:35px;
+    }
+
+    #login-text{
+        top:100px;
+        left:300px;
+    }
+
+    #google-button{
+        top:190px;
+        left:240px;
+    }
+
+    #sso-button{
+        top:230px;
+        left:240px;
+    }
+
+    #or-text{
+        top:280px;
+        left:240px;
+    }
+
+    #username-textbox{
+        top:330px;
+        left:240px;
+    }
+
+    #password-textbox{
+        top:370px;
+        left:240px;
+    }
+
+    #forgot-password-button{
+        top:410px;
+        left:230px;
+    }
+
+    #continue-button{
+        top:460px;
+        left:240px;
+    }
+
+    #no-account-text{
+        font-size:14.5px;
+        top:515px;
+        left:320px;
+    }
+
+    #signup-button{
+        top:527px;
+        left:473px;
+    }
+
+    #signin-wo-button{
+        top:570px;
+        left:200px;
+    }
+}
