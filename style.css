@@ -336,17 +336,18 @@ html {
     font-family:cal sans;
     font-size:25px;
     font-weight:100;
-    padding-left:30px
+    padding-left:30px;
+    /* Transition given by chatGPT */
+    transition:0.3s ease;
 }
 
- #register-button:hover{
-    left:102px;
-    width: 391px;
-    height:120px;
-    #upright-arrow{
-        padding-left:340px;
-    }
- }
+/* Change the size of the register button when the left side is hovered over */
+/* ChatGPT assistance */
+.left-side:hover #register-button{
+    transform: scale(1.17);
+    top:575px;
+}
+
 
 /* Style the upright arrow */
 #upright-arrow{
@@ -421,14 +422,13 @@ html {
 
     /* Style the register button */
     #register-button{
-        top:520px;
-        left:60px
+        top:540px;
+        left:100px
     }
 
-    /* Style the register button while the cursor is over it */
-    #register-button:hover{
-        left:30px;
-    }
+    .left-side:hover #register-button{
+        transform: scale(1.17);
+}
 
     /* Right side */
 
@@ -524,6 +524,7 @@ html {
         top:520px;
         left:60px;
         display: none;
+
     }
 
      .right-side{
@@ -592,7 +593,7 @@ html {
     }
 
     #signin-wo-button{
-        top:570px;
-        left:200px;
+        top:580px;
+        left:220px;
     }
 }
