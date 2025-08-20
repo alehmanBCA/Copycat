@@ -42,8 +42,8 @@ html {
 #login-text {
     display: inline-flex;
     position: absolute;
-    top: 210px;
-    left: 820px;
+    top: 205px;
+    left: 810px;
     font-family:outfit;
     font-size: 27px;
     font-weight:500;
@@ -58,7 +58,7 @@ html {
     border: 1px solid lightgray;
     padding: 5px 108px;
     font-size: 15px;
-    top: 300px;
+    top: 290px;
     cursor:pointer;
 }
 
@@ -82,7 +82,7 @@ html {
     border: 1px solid lightgray;
     padding: 5px 125.5px;
     font-size: 15px;
-    top: 350px;
+    top: 330px;
     cursor:pointer;
 }
 
@@ -96,7 +96,7 @@ html {
 #or-text{
     display:inline-flex;
     position: absolute;
-    top: 385px;
+    top: 370px;
     color: lightgray;
     font-size: 15px;
 }
@@ -108,9 +108,12 @@ html {
     justify-content: left;
     background-color: white;
     border: 1px solid #d3d3d3;
-    padding: 5px 197px 5px 5px;
-    font-size: 15px;
-    top:450px; 
+    padding: 5px 220px 5px 5px;
+    border-radius:5%;
+    font-size: 13px;
+    top:420px; 
+    width:160px;
+    height:30px;
 }
 
 /* Style the password text box */
@@ -120,8 +123,11 @@ html {
     justify-content:left;
     background-color:white;
     border:1px solid lightgray;
-    padding:5px 216.5px 5px 5px;
-    top:490px;
+    border-radius:5%;
+    padding:5px 215px 5px 5px;
+    top:470px;
+    width:166px;
+    height:30px;
 }
 
 /* Style the 'forgot password' button. */
